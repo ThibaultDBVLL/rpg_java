@@ -1,0 +1,28 @@
+class rpg{
+    public static void main(String[] args) {
+        System.out.println("Coucou!");
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Veux tu jouer à un super rpg ? (Oui ou non");
+        String jouer = "jouer";
+        jouer = reader.nextInt();
+        System.out.println(jouer);
+    }
+}
+
+
+11 :         Scanner.close();
+
+
+if (jouer == oui){
+            System.out.println("ça va être génial !"); 
+        }
+        else if (jouer == non){
+            System.out.println("Dommage !");
+            System.exit(0);
+        }
+         else {
+             System.out.println("Je n'ai pas compris, tape oui pour jouer, ou non pour partir");
+         }
+
+
+    System.out.println(rep_user.nextLine());
