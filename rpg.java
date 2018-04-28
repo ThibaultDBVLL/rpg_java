@@ -13,7 +13,12 @@ class rpg{
         
         if (jouer.equals("oui")) {
             System.out.println("trop cool !");
-        } 
+        } else if (jouer.equals("non")){
+            System.out.println("Dommage !");
+            System.exit(0);
+        } else {
+            System.out.println("Je n'ai pas compris, tape oui pour jouer, ou non pour partir");
+        }
         
     }
 }
