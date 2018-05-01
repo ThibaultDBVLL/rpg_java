@@ -1,2 +1,2 @@
 # rpg_java
-A little rpg, just to practice java
+A little rpg I create just to practice java
